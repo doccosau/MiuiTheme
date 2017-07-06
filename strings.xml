@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="aqi_pure" value="" />
+	<string name="aqi_good" value="" />
+	<string name="aqi_moderate" value="" />
+	<string name="aqi_pollution" value="" />
+	<string name="aqi_unhealthy" value="" />
+	<string name="aqi_dangerous" value="" />
+	<string name="aqi_hazardous" value="" />
+	<string name="aqi_break" value="" />
+	<string name="wd00" value="Trong lành" />
+	<string name="wd01" value="Nhiều mây" />
+	<string name="wd02" value="Âm u" />
+	<string name="wd03" value="Sương mù" />
+	<string name="wd04" value="Mưa rất to" />
+	<string name="wd05" value="Mưa lớn" />
+	<string name="wd06" value="Mưa rào" />
+	<string name="wd07" value="Mưa rào có sấm chớp" />
+	<string name="wd08" value="Trận mưa lớn" />
+	<string name="wd09" value="Mưa nặng hạt" />
+	<string name="wd10" value="Mưa" />
+	<string name="wd11" value="Mưa phùn" />
+	<string name="wd12" value="Mưa đá" />
+	<string name="wd13" value="Bão tuyết" />
+	<string name="wd14" value="Trận tuyết" />
+	<string name="wd15" value="Tuyết rơi nặng" />
+	<string name="wd16" value="Tuyết rơi" />
+	<string name="wd17" value="Tuyết rơi nhẹ" />
+	<string name="wd18" value="Bão cát mạnh" />
+	<string name="wd19" value="Bão cát" />
+	<string name="wd20" value="Bảo cát nhẹ" />
+	<string name="wd21" value="Bão cát" />
+	<string name="wd22" value="Mưa đá" />
+	<string name="wd23" value="Bụi bặm" />
+	<string name="wd24" value="Mây mù" />
+	<string name="language" value="2" />
+</strings>
+<string name="Clear" value="Trong lành"/>
+    <string name="Cloudy" value="Nhiều mây"/>
+    <string name="Hazy" value="Âm u"/>
+    <string name="Foggy" value="Sương mù"/>
+    <string name="Severe_rainstorm" value="Mưa xối xả"/>
+    <string name="Rainstorm" value="Mưa nặng hạt"/>
+    <string name="Very_heavy_rainfall" value="Mưa xối xả"/>
+    <string name="Thunderstorm" value="Mưa rào có sấm chớp"/>
+    <string name="Shower" value="Trận mưa"/>
+    <string name="Heavy_rainfall" value="Mưa to"/>
+    <string name="Rain" value="Mưa vừa"/>
+    <string name="Drizzle" value="Mưa nhỏ"/>
+    <string name="Sleet" value="Mưa tuyết"/>
+    <string name="Snowstorm" value="Bão tuyết"/>
+    <string name="Patches_of_snowfall" value="Trận tuyết"/>
+    <string name="Heavy_snowfall" value="Tuyết rơi nhiều"/>
+    <string name="Snowfall" value="Tuyết rơi vừa"/>
+    <string name="Light_snowfall" value="Tuyết rơi nhỏ"/>
+    <string name="Strong_sandstorm" value="Bão cát mạnh mẽ"/>
+    <string name="Sandstorm" value="Bão cát"/>
+    <string name="Light_sandstorm" value="Bụi cát"/>
+    <string name="Sandstorm" value="Dương sa"/>
+    <string name="Hail" value="Mưa đá"/>
+    <string name="Floating_Dust" value="Bụi bặm"/>
+    <string name="Haze" value="Mây mù"/>
+<----tháng-----/>
+<Items>
+		    <Item value="Tháng Một"/>
+		    <Item value="Tháng hai"/>
+		    <Item value="Tháng Ba"/>
+		    <Item value="Tháng Tư"/>
+		    <Item value="Tháng Năm"/>
+		    <Item value="Tháng Sáu"/>
+		    <Item value="Tháng bảy"/>
+		    <Item value="Tháng Tám"/>
+		    <Item value="Tháng Chín"/>
+		    <Item value="Tháng Mười"/>
+		    <Item value="Tháng Mười Một"/>
+		    <Item value="Tháng Mười Hai"/>
+	    </Items>
+		<Group text="Lựa chọn màu sắc  Lời chào Khóa màn hình">
+
+		<StringChoice text="word_1" summary="Mặc định: Màu Đen" id="1" default="#ff000000">
+			<Item value="#000000" text="Màu Đen"/>
+			<Item value="#ffffff" text="Màu Trắng"/>
+			<Item value="#ff0000" text="Màu Đỏ"/>
+			<Item value="#ff9c00" text="Màu Cam"/>
+			<Item value="#fff000" text="Màu Vàng"/>
+			<Item value="#00ff00" text="Màu Xanh Lá Cây"/>
+			<Item value="#00ffff" text="Màu Xanh"/>
+			<Item value="#0000ff" text="Màu Lam Đậm"/>
+			<Item value="#ff00ff" text="Màu Tím"/>
+			<Item value="#ffff9900" text="Màu Da Cam"/>
+			<Item value="#ff0066ff" text="Màu Lam"/>
+			<Item value="#ff33ccff" text="Màu Lam Nhạt"/>			
+			<Item value="#ffff66ff" text="Màu Hồng"/>
+			<Item value="#ff6666ff" text="Màu Tía Sẫm"/>
+			<Item value="#FF00FF" text="màu Hoa Mẫu Đơn Đỏ"/>	
+			<Item value="#5C3317" text="Màu sô cô la"/>	
+			<Item value="#215E21" text="Màu Hunter Xanh"/>	
+			<Item value="#CC3299" text="Màu Tím Đỏ"/>
+			<Item value="#4F2F4F" text="Màu Tím"/>
+			<Item value="#6F4242" text="Màu Cá Hồi"/>
+			<Item value="#D9D9F3" text="Màu Thạch Anh"/>
+			<Item value="#EAADEA" text="Màu Mận"/>
+			<Item value="#FF6EC7" text="Màu Hồng Neon"/>	
+			<Item value="#4D4DFF" text="Màu Neon giỏ"/>	
+			<Item value="#23238E" text="Màu xanh Hải quân"/>	
+			<Item value="#426F42" text="Màu Biển xanh"/>	
+		</StringChoice>
+
+<Group text="Liên hệ với chúng tôi">
+	 <StringChoice text="Về tác giả" summary="Độc Cô Sầu、CREATIVITY MIUI TEAM - Sự sáng tạo khác biệt đến từ MIUI
+http://khochudethuanviet.blogspot.com/" >
+     </StringChoice> 
+	 
+     <StringChoice text="Liên hệ hỗ trợ theme" summary="MIUI - Khochudethuanviet: https://www.facebook.com/groups/khochudethuanviet/" >
+     </StringChoice>  
+     <StringChoice text="Liên hệ trên Facebook" summary="Độc Cô Sầu" >
+     </StringChoice>
+     <StringChoice text="Liên hệ trên MIUI.VN" summary="chidanhpro1993" >
+     </StringChoice>
+     
+</Group>	
+<Group text="Cảm ơn bạn đã sử dụng các chủ đề của Độc Cô Sầu" >
+</Group>
+<---# com.android.home/>
+<string name="loading_desktop">Chào mừng bạn đến chủ đề của Độc Cô Sầu</string>
+ 	</Group>	
