@@ -1,0 +1,34 @@
+<VariableBinders> 
+  <ContentProviderBinder name="data" uri="content://keyguard.notification/notifications" columns="icon,title,content,time,info,subtext,key" countName="hasnotifications"> 
+  <Variable name="notification_key1" type="int" column="key" row="0" /> <List name="notification_list" /> 
+  <Trigger>
+  <VariableCommand name="notice" expression="ne(#notification_key1,0)" condition="#hasnotifications" />
+  </Trigger>
+  </ContentProviderBinder> 
+  </VariableBinders> 
+<Group visibility="#notice"> <List name="notification_list" x="0" y="516" w="975" maxHeight="250" data="icon:bitmap,title:string,content:string,time:string,info:string,subtext:string,key:int" visibility="hasnotifications"> 
+<Item x="0" y="0" w="975" h="125"> 
+<Button x="0" y="0" w="960" h="188" > 
+<Normal> <Image x="0" y="0" src="notice_bg.png" />
+ </Normal> 
+ <Pressed> 
+ <Image x="0" y="0" src="notice_bg.png" alpha="100" /> 
+ </Pressed>
+ <Image x="63" y="31" w="108" h="108" name="notification_icon" />
+ <Text x="205" y="43" size="32" color="#ffffff" w="460" marqueeSpeed="30" name="notification_title" />
+ <Text x="205" y="94" size="28" color="#ffffff" alpha="150" w="460" h="40" marqueeSpeed="30" name="notification_content" />
+ <Text x="893" y="70" size="28" align="right" color="#ffffff" alpha="150" name="notification_time" /> <Triggers> <Trigger action="up,cancel"> 
+ <IntentCommand action="com.miui.app.ExtraStatusBarManager.action_remove_keyguard_notification" broadcast="true"> 
+ <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_key" type="int" expression="#notification_list.key" /> 
+ <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_click" type="int" expression="1" /> </IntentCommand> 
+ </Trigger>
+ </Triggers> 
+ </Button> 
+ </Item> 
+ <AttrDataBinders> 
+ <AttrDataBinder target="notification_icon" attr="bitmap" data="icon" /> 
+ <AttrDataBinder target="notification_title" attr="text" data="title" /> 
+ <AttrDataBinder target="notification_content" attr="text" data="content" /> 
+ <AttrDataBinder target="notification_time" attr="text" data="time" /> 
+ </AttrDataBinders> </List>
+ </Group>  
