@@ -1,0 +1,15 @@
+<Group text="Liên hệ với chúng tôi">
+	 <StringChoice text="Về tác giả" summary="Độc Cô Sầu, CREATIVITY MIUI TEAM - Sự sáng tạo khác biệt đến từ MIUI" >
+<Item text="http://khochudethuanviet.blogspot.com/"/>
+     </StringChoice> 
+	 
+     <StringChoice text="Liên hệ hỗ trợ theme" summary="MIUI - Khochudethuanviet" >
+	 <Item text="https://www.facebook.com/groups/khochudethuanviet/"/>
+     </StringChoice>  
+     <StringChoice text="Liên hệ trên Facebook" >
+	 <Item text="Độc Cô Sầu"/ >
+     </StringChoice>
+     <StringChoice text="Liên hệ trên MIUI.VN">
+	<Item text="chidanhpro1993"/ >
+     </StringChoice>
+</Group>	
