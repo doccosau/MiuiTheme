@@ -1,0 +1,26 @@
+<Group>
+		<Image x="0" y="0" w="1080" h="1920" src="bg0.jpg" visibility="eq(#bz1,0)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg1.jpg" visibility="eq(#bz1,1)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg2.jpg" visibility="eq(#bz1,2)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg3.jpg" visibility="eq(#bz1,3)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg4.jpg" visibility="eq(#bz1,4)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg5.jpg" visibility="eq(#bz1,5)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg6.jpg" visibility="eq(#bz1,6)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg7.jpg" visibility="eq(#bz1,7)"/>
+		<Image x="0" y="0" w="1080" h="1920" src="bg8.jpg" visibility="eq(#bz1,8)"/>
+	</Group>
+
+	<Button x="660" y="1540" w="420" h="100">
+		<Triggers>
+			<Trigger action="double">
+				<VariableCommand name="bz1" expression="int(#bz1+1)%9" persist="true"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button x="980" y="1540" w="100" h="100" visibility="not(#xw_tis)">
+		<Triggers>
+			<Trigger action="up">
+				<VariableCommand name="xw_tis" expression="int(#xw_tis+1)%2" persist="true"/>
+			</Trigger>
+		</Triggers>
+	</Button>
