@@ -1,0 +1,53 @@
+<!--  Launcher Grid in settings (Tomhenson and MrRaines)-->
+  <integer name="config_cell_count_x_min">#00000004</integer>
+  <integer name="config_cell_count_x_max">#00000005</integer>
+  <integer name="config_cell_count_y_min">#00000005</integer>
+  <integer name="config_cell_count_y_max">#00000007</integer>
+<!-- Icons number in folders (Tomhenson and MrRaines)-->
+<integer name="config_cell_count_x">4</integer>
+<integer name="config_cell_count_y">5</integer>
+<integer name="config_folder_columns_count">4</integer>
+<integer name="config_cell_count_y_rotatable">5</integer>
+<integer name="config_cell_count_x_rotatable">3</integer>
+<integer name="config_cell_count_x">4</integer>
+<integer name="config_cell_count_y">5</integer>
+<!--Preview of icons in folder (Tomhenson and MrRaines)-->
+<dimen name="folder_preview_top_margin">8.000000dp</dimen>
+
+<!--Size of preview in folder (Tomhenson and MrRaines)-->
+<dimen name="folder_preview_width">43.0dip</dimen>
+<dimen name="folder_preview_height">43.0dip</dimen>
+<dimen name="folder_preview_item_padding">-0.500000dp</dimen>
+
+<!--Icons in folder in the right folder (Tomhenson and MrRaines)-->
+<dimen name="folder_item_horizontal_spacing">7.0dip</dimen>
+
+<!--Icons number in folder (Tomhenson and MrRaines)-->
+<integer name="config_cell_count_x">4</integer>
+<integer name="config_cell_count_y">5</integer>
+<integer name="config_folder_columns_count">4</integer>
+<integer name="config_cell_count_y_rotatable">5</integer>
+<integer name="config_cell_count_x_rotatable">3</integer>
+<integer name="config_cell_count_x">4</integer>
+<integer name="config_cell_count_y">5</integer>
+
+<!--Icons location(Tomhenson and MrRaines)-->
+<dimen name="folder_content_width">315.000000dp</dimen>
+<dimen name="folder_content_padding_top">3.0dip</dimen>
+<dimen name="folder_content_padding_right">5.0dip</dimen>
+<dimen name="folder_content_padding_left">0.0dip</dimen>
+<dimen name="folder_content_padding_bottom">20.000000dp</dimen>
+
+<!--Icons Size(Tomhenson and MrRaines)-->
+<dimen name="config_icon_height">57.000000dp</dimen>
+<dimen name="config_icon_width">57.000000dp</dimen>
+
+<!--Distance between down part of the icon to the text (Tomhenson and MrRaines)-->
+<dimen name="icon_title_padding_bottom">17.0dip</dimen>
+
+<!--Distance between down part of the screen to the desktop indicators (Tomhenson and MrRaines)-->
+<dimen name="workspace_indicator_margin_bottom">40.000000dp</dimen>
+<dimen name="folder_preview_top_margin">9.500000dip</dimen><!-- 10 -->
+<!--Name Icons text Size (Tomhenson and MrRaines)-->
+<dimen name="workspace_icon_text_size">9.000000dp</dimen>
+</MIUI_Theme_Values>
